@@ -1,12 +1,15 @@
-import './App.css';
-import Contact from './Components/Contact_us/Contact';
-import Newsletter from './Components/Newsletter/Newsletter';
+import "./App.css";
+import Contact from "./Components/Contact_us/Contact";
+import Newsletter from "./Components/Newsletter/Newsletter";
+import Footer from "./Components/Footer/Footer";
+import About from "./Components/About_us/About";
 function App() {
   return (
     <div className="App">
-    
-<Contact/>
-<Newsletter/>
+      <About/>
+      <Contact />
+      <Newsletter />
+      <Footer />
     </div>
   );
 }

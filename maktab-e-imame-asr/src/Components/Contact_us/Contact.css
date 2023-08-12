@@ -21,15 +21,15 @@
 }
 .Contact_form {
   text-align: left;
-  padding: 7%;
+  padding: 4%;
 }
 
 .Contact_heading p {
   color: #808080;
-  font-size: 16px;
+  font-size: 12px;
 }
 .Contact_heading h1 {
-  font-size: 30px;
+  font-size: 20px;
 }
 .Contact_address_phone {
   display: grid;
@@ -38,10 +38,10 @@
 }
 .Contact_address_phone p {
   color: #808080;
-  font-size: 13px;
+  font-size: 12px;
 }
 .Contact_address_phone h4 {
-  font-size: 15px;
+  font-size: 12px;
 }
 .Contact_input {
   display: flex;
@@ -49,12 +49,13 @@
 }
 .Contact_input input {
   margin-bottom: 2%;
-  padding: 2%;
+  padding: 1%;
   width: 92%;
+  font-size: 10px;
 }
 .Contact_input textarea {
-  font-size: 13px;
-  padding: 2.2%;
+  font-size: 10px;
+  padding: 1%;
   width: 92%;
 }
 .Contact_button button {
@@ -64,6 +65,7 @@
   color: white;
   cursor: pointer;
   margin-top: 2%;
+  font-size: 10px;
 }
 
 @media screen and (max-width: 768px) {
