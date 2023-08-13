@@ -39,21 +39,21 @@ const Footer = () => {
           <div className="footer_logo_details">
             <div>
               <FaMapLocationDot className="footer_logo_icon" />
-              <p>203 Fake St. Mountain View</p>
+              <p>Roshan Gate, Aurangabad</p>
             </div>
           </div>
 
           <div className="footer_logo_details">
             <div>
               <IoCall className="footer_logo_icon" />
-              <p>+2 392 3929 210</p>
+              <p>+91-8888437431 / +91-9970250087</p>
             </div>
           </div>
 
           <div className="footer_logo_details">
             <div>
               <SiMinutemailer className="footer_logo_icon" />
-              <p>info@yourdomain.com</p>
+              <p>imameasr110@gmail.com</p>
             </div>
           </div>
         </div>
