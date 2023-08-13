@@ -66,19 +66,19 @@
   font-size: 16px;
 }
 
-.social {
+.social1 {
   display: flex;
   align-items: center;
   gap: 8px;
 }
-.social .icon {
+.social1 .icon {
   padding: 5px;
   font-size: 10px;
   color: #ffffff;
   border-radius: 50%;
   background-color: #1eb2a6;
 }
-.social .icon:hover {
+.social1 .icon:hover {
   background-color: #eeeeee;
   color: #1eb2a6;
   transition: 0.6s;

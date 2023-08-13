@@ -1,8 +1,8 @@
 import React from "react";
 import style from "../About_us/About.css";
+import { ArrayAbout } from "../dummyData1.js";
 
 const About = () => {
-    let arrayDiv=[{"https://hidayahnetwork.com/wp-content/uploads/2020/06/icon-adelrhman-5.jpg.webp","Structured study plans","with our structured plans we will keep you on track, motivated, focused and will achieve your study goals easily and perfectly."}]
   return (
     <div className="new_about_main">
       <div className="about_main">
@@ -65,7 +65,22 @@ const About = () => {
             experts who keep a thorough check on each class.
           </p>
         </div>
-        <div className="about_arry"><h3>WHAT MAKES OUR CLASSES EXCEPTIONAL?</h3></div>
+        <div className="about_arry">
+          <h3>WHAT MAKES OUR CLASSES EXCEPTIONAL?</h3>
+          <div className="about_arry_sub">
+            {ArrayAbout.map((val, index) => (
+              <div className="about_arry_main_div" key={index}>
+                <div className="about_img_div">
+                  <img src={val.image} alt="img" />
+                </div>
+                <div className="about_details_div">
+                  <h3>{val.title}</h3>
+                  <p>{val.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );

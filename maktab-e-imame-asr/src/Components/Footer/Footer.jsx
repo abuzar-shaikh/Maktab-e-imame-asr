@@ -19,7 +19,7 @@ const Footer = () => {
             the necessary regelialia.
           </p>
 
-          <div className="social">
+          <div className="social1">
             <i className="fab fa-facebook-f icon"></i>
             <i className="fab fa-instagram icon"></i>
             <i className="fab fa-twitter icon"></i>
