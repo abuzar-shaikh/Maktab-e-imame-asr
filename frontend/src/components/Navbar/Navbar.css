@@ -1,0 +1,162 @@
+  .Navbar{
+    width: 95%;
+    margin: auto;
+  }
+header {
+   background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 30px;
+  }
+  .flexSB {
+    display: flex;
+    justify-content: space-between;
+  }
+  header .nav {
+    display: flex !important;
+  }
+  header li {
+    margin-right: 40px;
+    text-decoration: none;
+    list-style: none;
+  }
+  header ul {
+    padding: 30px 20px;
+  }
+  header ul li a {
+    color: #f8f8f8;
+    font-weight: 500;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+  .active{
+    color: #1eb2a6;
+  }
+  header ul li a:hover {
+    color: #1eb2a6;
+  }
+  .start {
+    background-color: #1eb2a6;
+    padding: 30px 40px;
+    color: #fff;
+    clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
+  }
+  .toggle {
+    display: none;
+  }
+ .nav-heading{
+  font-size: 1.2rem;
+ }
+  /*--------header------------*/
+  @media screen and (max-width: 768px) {
+    .start {
+      clip-path: none;
+    }
+    header {
+      margin: 0;
+      background-color: #1eb2a6;
+      position: relative;
+    }
+    header ul.flexSB {
+      display: none;
+    }
+    header ul li {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .toggle {
+      display: block;
+      background: none;
+      color: #fff;
+      font-size: 30px;
+      position: absolute;
+      right: 0;
+      top: 20px;
+      border: none;
+      margin-right: 22px;
+      align-self:baseline;
+    }
+    .mobile-nav {
+      position: absolute;
+      top: 8vh;
+      left: 0;
+      width: 100%;
+      background-color: #1eb2a6;
+    }
+    .active{
+      color: rgb(164,200,206);
+    }
+  }
+
+  @media screen and (max-width: 820px) {
+    .start {
+      clip-path: none;
+    }
+    header {
+      margin: 0;
+      background-color: #1eb2a6;
+      position: relative;
+    }
+    header ul.flexSB {
+      display: none;
+    }
+    header ul li {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .toggle {
+      display: block;
+      background: none;
+      color: #fff;
+      font-size: 30px;
+      position: absolute;
+      right: 0;
+      top: 20px;
+      border: none;
+      margin-right: 22px;
+      align-self:baseline;
+    }
+    .mobile-nav {
+      position: absolute;
+      top: 7vh;
+      left: 0;
+      width: 100%;
+      background-color: #1eb2a6;
+    }
+    .active{
+      color: rgb(164,200,206);
+    }
+  }
+
+  
+  @media screen and (max-width: 667px) {
+    .mobile-nav {
+      position: absolute;
+      top: 30px;
+      left: 0;
+      width: 100%;
+      background-color: #1eb2a6;
+    }
+     .start {
+    background-color: #1eb2a6;
+    padding: 20px 30px;
+    color: #fff;
+    clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
+  }
+  .toggle {
+    display: block;
+    background: none;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    border: none;
+    margin-right: 22px;
+    align-self:baseline;
+  }
+  .nav-heading{
+    font-size: 18px;
+  }
+  .active{
+    color: rgb(164,200,206);
+  }
+  }
